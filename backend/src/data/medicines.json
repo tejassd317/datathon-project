@@ -1,0 +1,98 @@
+[
+  {
+    "id": "MED-001",
+    "name": "Oxytocin Injection",
+    "dosage": "10 IU / 1 mL Ampoule",
+    "category": "Maternal & Reproductive Health",
+    "clinicalIndication": "Prevention & management of postpartum hemorrhage",
+    "criticality": 10,
+    "requiresColdChain": true,
+    "temperatureRange": "2°C to 8°C",
+    "unit": "ampoules",
+    "costPerUnitUSD": 0.45
+  },
+  {
+    "id": "MED-002",
+    "name": "Amoxicillin Dispersible Tablets",
+    "dosage": "250 mg DT",
+    "category": "Essential Antibiotics (Pediatric)",
+    "clinicalIndication": "Treatment of childhood bacterial pneumonia & sepsis",
+    "criticality": 8,
+    "requiresColdChain": false,
+    "temperatureRange": "15°C to 25°C",
+    "unit": "blister packs (10s)",
+    "costPerUnitUSD": 0.28
+  },
+  {
+    "id": "MED-003",
+    "name": "Artesunate Injection",
+    "dosage": "60 mg Powder for Reconstitution",
+    "category": "Antimalarials",
+    "clinicalIndication": "Emergency treatment of severe falciparum malaria",
+    "criticality": 9,
+    "requiresColdChain": false,
+    "temperatureRange": "15°C to 30°C",
+    "unit": "vials",
+    "costPerUnitUSD": 2.10
+  },
+  {
+    "id": "MED-004",
+    "name": "Regular Human Insulin",
+    "dosage": "100 IU / mL (10 mL Vial)",
+    "category": "Endocrine & Emergency Glycemic Care",
+    "clinicalIndication": "Diabetic ketoacidosis & glycemic crisis stabilization",
+    "criticality": 9,
+    "requiresColdChain": true,
+    "temperatureRange": "2°C to 8°C",
+    "unit": "vials",
+    "costPerUnitUSD": 4.80
+  },
+  {
+    "id": "MED-005",
+    "name": "Oral Rehydration Salts (ORS) + Zinc",
+    "dosage": "WHO Formulation Sachet + 20mg Zinc",
+    "category": "Pediatric Gastrointestinal",
+    "clinicalIndication": "Severe dehydration from acute diarrhea & cholera",
+    "criticality": 6,
+    "requiresColdChain": false,
+    "temperatureRange": "Room Temperature (<30°C)",
+    "unit": "co-packs",
+    "costPerUnitUSD": 0.18
+  },
+  {
+    "id": "MED-006",
+    "name": "Epinephrine (Adrenaline)",
+    "dosage": "1 mg / 1 mL Ampoule (1:1000)",
+    "category": "Emergency & Resuscitation",
+    "clinicalIndication": "Severe anaphylaxis, cardiac arrest, airway spasm",
+    "criticality": 10,
+    "requiresColdChain": false,
+    "temperatureRange": "15°C to 25°C (Protect from Light)",
+    "unit": "ampoules",
+    "costPerUnitUSD": 0.95
+  },
+  {
+    "id": "MED-007",
+    "name": "Rabies Post-Exposure Anti-Serum",
+    "dosage": "1000 IU / 5 mL Vial",
+    "category": "Emergency Immunoglobulins",
+    "clinicalIndication": "Immediate post-exposure prophylaxis for animal bites",
+    "criticality": 10,
+    "requiresColdChain": true,
+    "temperatureRange": "2°C to 8°C",
+    "unit": "vials",
+    "costPerUnitUSD": 14.50
+  },
+  {
+    "id": "MED-008",
+    "name": "Ready-to-Use Therapeutic Food (RUTF)",
+    "dosage": "92g Peanut-based Paste Sachet (500 kcal)",
+    "category": "Child Nutrition",
+    "clinicalIndication": "Outpatient management of severe acute malnutrition (SAM)",
+    "criticality": 7,
+    "requiresColdChain": false,
+    "temperatureRange": "Room Temperature (<30°C)",
+    "unit": "sachets",
+    "costPerUnitUSD": 0.35
+  }
+]

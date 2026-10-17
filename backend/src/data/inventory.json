@@ -1,0 +1,243 @@
+[
+  {
+    "inventoryId": "INV-001",
+    "facilityId": "FAC-001",
+    "medicineId": "MED-001",
+    "currentStock": 22,
+    "averageDailyConsumption": 7.5,
+    "safetyStockThreshold": 45,
+    "pendingOrderQuantity": 80,
+    "leadTimeDays": 12,
+    "pendingOrderDaysRemaining": 9,
+    "batches": [
+      { "batchNo": "OXY-2026-A1", "quantity": 22, "expiryDate": "2027-02-15" }
+    ],
+    "notes": "Escarpment delivery delayed due to seasonal rains"
+  },
+  {
+    "inventoryId": "INV-002",
+    "facilityId": "FAC-001",
+    "medicineId": "MED-002",
+    "currentStock": 140,
+    "averageDailyConsumption": 20,
+    "safetyStockThreshold": 120,
+    "pendingOrderQuantity": 200,
+    "leadTimeDays": 8,
+    "pendingOrderDaysRemaining": 4,
+    "batches": [
+      { "batchNo": "AMX-2026-B4", "quantity": 140, "expiryDate": "2027-08-30" }
+    ],
+    "notes": "Moderate stock; seasonal respiratory spike"
+  },
+  {
+    "inventoryId": "INV-003",
+    "facilityId": "FAC-001",
+    "medicineId": "MED-003",
+    "currentStock": 15,
+    "averageDailyConsumption": 5.0,
+    "safetyStockThreshold": 35,
+    "pendingOrderQuantity": 50,
+    "leadTimeDays": 10,
+    "pendingOrderDaysRemaining": 7,
+    "batches": [
+      { "batchNo": "ART-2026-09", "quantity": 15, "expiryDate": "2027-05-10" }
+    ],
+    "notes": "Critical antimalarial running low"
+  },
+  {
+    "inventoryId": "INV-004",
+    "facilityId": "FAC-001",
+    "medicineId": "MED-004",
+    "currentStock": 38,
+    "averageDailyConsumption": 3.0,
+    "safetyStockThreshold": 25,
+    "pendingOrderQuantity": 30,
+    "leadTimeDays": 14,
+    "pendingOrderDaysRemaining": 8,
+    "batches": [
+      { "batchNo": "INS-2026-C2", "quantity": 38, "expiryDate": "2026-12-20" }
+    ],
+    "notes": "Adequate for 12 days; solar fridge functioning well"
+  },
+  {
+    "inventoryId": "INV-005",
+    "facilityId": "FAC-002",
+    "medicineId": "MED-001",
+    "currentStock": 12,
+    "averageDailyConsumption": 4.0,
+    "safetyStockThreshold": 28,
+    "pendingOrderQuantity": 40,
+    "leadTimeDays": 11,
+    "pendingOrderDaysRemaining": 8,
+    "batches": [
+      { "batchNo": "OXY-2026-A2", "quantity": 12, "expiryDate": "2027-03-01" }
+    ],
+    "notes": "Very low stock; maternity ward at risk"
+  },
+  {
+    "inventoryId": "INV-006",
+    "facilityId": "FAC-002",
+    "medicineId": "MED-002",
+    "currentStock": 95,
+    "averageDailyConsumption": 12,
+    "safetyStockThreshold": 75,
+    "pendingOrderQuantity": 100,
+    "leadTimeDays": 7,
+    "pendingOrderDaysRemaining": 3,
+    "batches": [
+      { "batchNo": "AMX-2026-B8", "quantity": 95, "expiryDate": "2027-10-15" }
+    ],
+    "notes": "Approaching threshold within a week"
+  },
+  {
+    "inventoryId": "INV-007",
+    "facilityId": "FAC-002",
+    "medicineId": "MED-007",
+    "currentStock": 2,
+    "averageDailyConsumption": 1.2,
+    "safetyStockThreshold": 8,
+    "pendingOrderQuantity": 10,
+    "leadTimeDays": 15,
+    "pendingOrderDaysRemaining": 12,
+    "batches": [
+      { "batchNo": "RAB-2026-01", "quantity": 2, "expiryDate": "2027-01-30" }
+    ],
+    "notes": "Imminent zero-stockout for rabies anti-serum"
+  },
+  {
+    "inventoryId": "INV-008",
+    "facilityId": "FAC-003",
+    "medicineId": "MED-003",
+    "currentStock": 8,
+    "averageDailyConsumption": 4.5,
+    "safetyStockThreshold": 30,
+    "pendingOrderQuantity": 60,
+    "leadTimeDays": 14,
+    "pendingOrderDaysRemaining": 10,
+    "batches": [
+      { "batchNo": "ART-2026-11", "quantity": 8, "expiryDate": "2027-06-25" }
+    ],
+    "notes": "Less than 2 days of severe malaria treatment remaining"
+  },
+  {
+    "inventoryId": "INV-009",
+    "facilityId": "FAC-003",
+    "medicineId": "MED-005",
+    "currentStock": 160,
+    "averageDailyConsumption": 18,
+    "safetyStockThreshold": 100,
+    "pendingOrderQuantity": 150,
+    "leadTimeDays": 6,
+    "pendingOrderDaysRemaining": 2,
+    "batches": [
+      { "batchNo": "ORS-2026-D1", "quantity": 160, "expiryDate": "2028-04-10" }
+    ],
+    "notes": "Order arriving soon"
+  },
+  {
+    "inventoryId": "INV-010",
+    "facilityId": "FAC-003",
+    "medicineId": "MED-006",
+    "currentStock": 6,
+    "averageDailyConsumption": 1.5,
+    "safetyStockThreshold": 15,
+    "pendingOrderQuantity": 20,
+    "leadTimeDays": 9,
+    "pendingOrderDaysRemaining": 6,
+    "batches": [
+      { "batchNo": "EPI-2026-F1", "quantity": 6, "expiryDate": "2027-04-12" }
+    ],
+    "notes": "Critical resuscitation supply nearly depleted"
+  },
+  {
+    "inventoryId": "INV-011",
+    "facilityId": "FAC-004",
+    "medicineId": "MED-001",
+    "currentStock": 320,
+    "averageDailyConsumption": 14,
+    "safetyStockThreshold": 100,
+    "pendingOrderQuantity": 400,
+    "leadTimeDays": 5,
+    "pendingOrderDaysRemaining": 2,
+    "batches": [
+      { "batchNo": "OXY-2026-H1", "quantity": 180, "expiryDate": "2027-04-01" },
+      { "batchNo": "OXY-2026-H2", "quantity": 140, "expiryDate": "2027-07-20" }
+    ],
+    "notes": "District depot with surplus available for redistribution"
+  },
+  {
+    "inventoryId": "INV-012",
+    "facilityId": "FAC-004",
+    "medicineId": "MED-002",
+    "currentStock": 980,
+    "averageDailyConsumption": 45,
+    "safetyStockThreshold": 300,
+    "pendingOrderQuantity": 1000,
+    "leadTimeDays": 5,
+    "pendingOrderDaysRemaining": 3,
+    "batches": [
+      { "batchNo": "AMX-2026-K1", "quantity": 980, "expiryDate": "2027-11-15" }
+    ],
+    "notes": "Substantial central buffer"
+  },
+  {
+    "inventoryId": "INV-013",
+    "facilityId": "FAC-004",
+    "medicineId": "MED-003",
+    "currentStock": 210,
+    "averageDailyConsumption": 12,
+    "safetyStockThreshold": 60,
+    "pendingOrderQuantity": 250,
+    "leadTimeDays": 6,
+    "pendingOrderDaysRemaining": 3,
+    "batches": [
+      { "batchNo": "ART-2026-M1", "quantity": 210, "expiryDate": "2027-09-01" }
+    ],
+    "notes": "Antimalarial buffer available for field outposts"
+  },
+  {
+    "inventoryId": "INV-014",
+    "facilityId": "FAC-004",
+    "medicineId": "MED-007",
+    "currentStock": 28,
+    "averageDailyConsumption": 1.5,
+    "safetyStockThreshold": 10,
+    "pendingOrderQuantity": 30,
+    "leadTimeDays": 7,
+    "pendingOrderDaysRemaining": 4,
+    "batches": [
+      { "batchNo": "RAB-2026-D4", "quantity": 28, "expiryDate": "2027-03-20" }
+    ],
+    "notes": "Depot cold room stores emergency anti-serum reserves"
+  },
+  {
+    "inventoryId": "INV-015",
+    "facilityId": "FAC-005",
+    "medicineId": "MED-008",
+    "currentStock": 85,
+    "averageDailyConsumption": 18,
+    "safetyStockThreshold": 90,
+    "pendingOrderQuantity": 120,
+    "leadTimeDays": 16,
+    "pendingOrderDaysRemaining": 11,
+    "batches": [
+      { "batchNo": "RUT-2026-T1", "quantity": 85, "expiryDate": "2027-01-15" }
+    ],
+    "notes": "RUTF malnutrition rations below safety buffer due to drought influx"
+  },
+  {
+    "inventoryId": "INV-016",
+    "facilityId": "FAC-005",
+    "medicineId": "MED-002",
+    "currentStock": 48,
+    "averageDailyConsumption": 10,
+    "safetyStockThreshold": 50,
+    "pendingOrderQuantity": 80,
+    "leadTimeDays": 14,
+    "pendingOrderDaysRemaining": 9,
+    "batches": [
+      { "batchNo": "AMX-2026-Q2", "quantity": 48, "expiryDate": "2027-06-30" }
+    ],
+    "notes": "Antibiotics near safety limit"
+  }
+]

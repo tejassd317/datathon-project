@@ -1,0 +1,80 @@
+[
+  {
+    "routeId": "ROUTE-001",
+    "routeCode": "R-DEPOT-BARINGO",
+    "fromFacilityId": "FAC-004",
+    "toFacilityId": "FAC-001",
+    "distanceKm": 68,
+    "normalTransitHours": 2.5,
+    "roadCondition": "ESCARPMENT_HAZARDOUS",
+    "isPassable": true,
+    "hasColdChainVehicleSupport": true,
+    "maxPayloadUnits": 1500,
+    "notes": "Direct escarpment route via Kabarnet road; sensitive to heavy rainfall"
+  },
+  {
+    "routeId": "ROUTE-002",
+    "routeCode": "R-DEPOT-KIPKABUS",
+    "fromFacilityId": "FAC-004",
+    "toFacilityId": "FAC-002",
+    "distanceKm": 42,
+    "normalTransitHours": 1.4,
+    "roadCondition": "UNPAVED_ALL_WEATHER",
+    "isPassable": true,
+    "hasColdChainVehicleSupport": true,
+    "maxPayloadUnits": 2000,
+    "notes": "Highland agricultural road; passable year-round with minor mud in rain"
+  },
+  {
+    "routeId": "ROUTE-003",
+    "routeCode": "R-DEPOT-MARIGAT",
+    "fromFacilityId": "FAC-004",
+    "toFacilityId": "FAC-003",
+    "distanceKm": 54,
+    "normalTransitHours": 1.8,
+    "roadCondition": "PAVED_HIGHWAY_AND_BRIDGE",
+    "isPassable": true,
+    "hasColdChainVehicleSupport": false,
+    "maxPayloadUnits": 1200,
+    "notes": "Standard pickup truck route; regular refrigerated van currently unassigned"
+  },
+  {
+    "routeId": "ROUTE-004",
+    "routeCode": "R-DEPOT-TIATY",
+    "fromFacilityId": "FAC-004",
+    "toFacilityId": "FAC-005",
+    "distanceKm": 128,
+    "normalTransitHours": 5.2,
+    "roadCondition": "EARTHEN_TRACK_SEASONAL",
+    "isPassable": true,
+    "hasColdChainVehicleSupport": true,
+    "maxPayloadUnits": 800,
+    "notes": "Heavy 4x4 rugged track; remote drylands route"
+  },
+  {
+    "routeId": "ROUTE-005",
+    "routeCode": "R-BARINGO-MARIGAT",
+    "fromFacilityId": "FAC-001",
+    "toFacilityId": "FAC-003",
+    "distanceKm": 34,
+    "normalTransitHours": 1.2,
+    "roadCondition": "UNPAVED_SEASONAL",
+    "isPassable": true,
+    "hasColdChainVehicleSupport": false,
+    "maxPayloadUnits": 600,
+    "notes": "Secondary mountain pass connector"
+  },
+  {
+    "routeId": "ROUTE-006",
+    "routeCode": "R-BARINGO-KIPKABUS",
+    "fromFacilityId": "FAC-001",
+    "toFacilityId": "FAC-002",
+    "distanceKm": 72,
+    "normalTransitHours": 2.8,
+    "roadCondition": "UNPAVED_RIDGE",
+    "isPassable": true,
+    "hasColdChainVehicleSupport": false,
+    "maxPayloadUnits": 500,
+    "notes": "Inter-dispensary ridge crossing"
+  }
+]

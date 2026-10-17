@@ -1,0 +1,87 @@
+[
+  {
+    "id": "FAC-001",
+    "name": "Baringo Ridge Health Centre",
+    "type": "Sub-County Hospital (Level 3)",
+    "district": "Baringo North",
+    "location": {
+      "lat": 0.5842,
+      "lng": 35.7412,
+      "accessibilityRating": "Vulnerable (Unpaved Escarpment Road)",
+      "elevationMeters": 1820
+    },
+    "populationServed": 34500,
+    "hasColdChain": true,
+    "coldChainStatus": "OPERATIONAL_SOLAR_DIRECT_DRIVE",
+    "storageCapacityUnits": 12000,
+    "contactTitle": "Clinical Officer In-Charge"
+  },
+  {
+    "id": "FAC-002",
+    "name": "Kipkabus Dispensary",
+    "type": "Rural Dispensary (Level 2)",
+    "district": "Ainabkoi Highland",
+    "location": {
+      "lat": 0.3121,
+      "lng": 35.5189,
+      "accessibilityRating": "Seasonal Mud Prone (Flooding Risk)",
+      "elevationMeters": 2400
+    },
+    "populationServed": 14200,
+    "hasColdChain": true,
+    "coldChainStatus": "OPERATIONAL_BATTERY_BACKUP",
+    "storageCapacityUnits": 4500,
+    "contactTitle": "Nursing Officer"
+  },
+  {
+    "id": "FAC-003",
+    "name": "Marigat Riverine Care Post",
+    "type": "Primary Health Post (Level 2)",
+    "district": "Baringo South",
+    "location": {
+      "lat": 0.4682,
+      "lng": 35.9814,
+      "accessibilityRating": "Bridge Crossing Vulnerable to Flash Floods",
+      "elevationMeters": 1060
+    },
+    "populationServed": 19800,
+    "hasColdChain": false,
+    "coldChainStatus": "NO_COLD_CHAIN (Cold-Box Dependent)",
+    "storageCapacityUnits": 3000,
+    "contactTitle": "Community Health Lead"
+  },
+  {
+    "id": "FAC-004",
+    "name": "Eldama Ravine District Medical Depot",
+    "type": "Sub-County Referral Depot (Level 4 Hub)",
+    "district": "Koibatek",
+    "location": {
+      "lat": 0.0521,
+      "lng": 35.7289,
+      "accessibilityRating": "Tarmac Highway Connected",
+      "elevationMeters": 2100
+    },
+    "populationServed": 89000,
+    "hasColdChain": true,
+    "coldChainStatus": "REDUN_GRID_PLUS_DIESEL_GENSET",
+    "storageCapacityUnits": 45000,
+    "contactTitle": "Chief Pharmacist"
+  },
+  {
+    "id": "FAC-005",
+    "name": "Tiaty Semi-Arid Outpost",
+    "type": "Remote Mobile Post (Level 2)",
+    "district": "East Pokot",
+    "location": {
+      "lat": 1.1215,
+      "lng": 36.0354,
+      "accessibilityRating": "Isolated Rough Track (4x4 Only)",
+      "elevationMeters": 910
+    },
+    "populationServed": 11300,
+    "hasColdChain": true,
+    "coldChainStatus": "SOLAR_HYBRID_LOW_CAPACITY",
+    "storageCapacityUnits": 2200,
+    "contactTitle": "Field Paramedic"
+  }
+]
